@@ -1,1 +1,31 @@
+-- returs amount of rider type from cleaned data --
+SELECT member_casual, count(member_casual) as count
+FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data`
+GROUP BY member_casual;
 
+-- returns the averge ride length by rider type --
+SELECT member_casual, AVG(ride_length) AS avg_ride_length
+FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data`
+GROUP BY member_casual;
+
+-- returns the count of each bike type by rider type --
+SELECT  member_casual AS type_of_rider, rideable_type AS bike_type, COUNT(rideable_type) AS total_number_of_rides
+FROM  `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data`
+GROUP BY member_casual, rideable_type;
+
+-- returns the average ride length by month and rider type --
+SELECT month, member_casual, AVG(ride_length) AS avg_ride_length
+FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data`
+GROUP BY month, member_casual
+ORDER BY month;
+
+-- returns the number of rides by day of the week for each rider type --
+SELECT day_of_week, member_casual, COUNT(day_of_week) AS total_rides
+FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data`
+GROUP BY day_of_week, member_casual;
+
+-- returns the average length of ride by day of the week, grouped by rider type --
+SELECT day_of_week, member_casual, avg(ride_length) as avg_ride_length
+FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data`
+GROUP BY day_of_week, member_casual
+ORDER BY day_of_week;
