@@ -14,24 +14,24 @@ SELECT COUNT(*) - COUNT(ride_id) ride_id,
  COUNT(*) - COUNT(member_casual) member_casual
 FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.12_month_data`;
 
--- reveals the amount of duplicate rows in the table --
+-- returns the amount of duplicate rows in the table --
 
 SELECT COUNT(ride_id) - COUNT(DISTINCT ride_id) AS duplicate_rows
 FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.12_month_data`;
 
--- reveals the rows by the length of their ride_id, which all end up being 16 --
+-- returns the rows by the length of their ride_id, which all end up being 16 --
 
 SELECT LENGTH(ride_id) AS length_ride_id, COUNT(ride_id) AS number_of_rows
 FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.12_month_data`
 GROUP BY length_ride_id; 
 
--- reveals the number of trips by rideable type, which is either electric or classic --
+-- returns the number of trips by rideable type, which is either electric or classic --
 
 SELECT DISTINCT rideable_type, COUNT(rideable_type) AS number_of_trips
 FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.12_month_data`
 GROUP BY rideable_type;
 
--- reveals the number of trips by member type, which is either casual or annual member --
+-- returns the number of trips by member type, which is either casual or annual member --
 
 SELECT member_casual, COUNT(member_casual) AS number_of_trips
 FROM `angular-sorter-489815-g2.Cyclistic_bikeshare_data.12_month_data`
