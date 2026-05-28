@@ -1,5 +1,8 @@
--- create new table for the cleaned data
--- convert day of the week and month from numbers 
+-- create new table for the cleaned data --
+-- convert day of the week and month from numbers to string --
+-- create rows for day of the week, month, and ride length -- 
+-- remove rows with null values in station name and latitude/longitude --
+-- remove rows with lengths less than a minute and longer than a day --
 
 CREATE TABLE IF NOT EXISTS `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data` As (
   Select
@@ -46,3 +49,8 @@ CREATE TABLE IF NOT EXISTS `angular-sorter-489815-g2.Cyclistic_bikeshare_data.cl
     end_lng IS NOT NULL AND
     ride_length > 1 AND ride_length < 1440                                  
 );
+
+-- set ride_id as primary key --
+
+ALTER TABLE `angular-sorter-489815-g2.Cyclistic_bikeshare_data.clean_12_month_data`    
+ADD PRIMARY KEY(ride_id) NOT ENFORCED;
