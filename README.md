@@ -30,3 +30,27 @@ I compiled data from April 2025 to March 2026 and used SQL through Google’s Bi
 
 The director of marketing, my manager, believes that maximizing the number of annual members will lead to growth. Instead of appealing to new customers, she believes converting casual riders to annual members will be the most effective since they are already familiar with the company. To do this, the team needs to understand how annual members and casual riders differ, why casual members would buy a membership, and how digital media could be used in marketing tactics. So, that is where I, the data analyst, come in. I am tasked with the first part of that equation. 
 
+Analyze
+
+The analyze step of this case study consists of data combining, data exploration, data cleaning, and data analysis. The code that I created in SQL for these steps will be attached below. 
+
+[Data Combining](https://github.com/putitinreverseterry/cyclistic_bikeshare_case_study/blob/main/Data_Combining)
+[Data Exploration](https://github.com/putitinreverseterry/cyclistic_bikeshare_case_study/blob/main/Data_Exploration)
+[Data Cleaning](https://github.com/putitinreverseterry/cyclistic_bikeshare_case_study/blob/main/Data_Cleaning)
+[Data Analysis](https://github.com/putitinreverseterry/cyclistic_bikeshare_case_study/blob/main/Data_Analysis)
+
+Data Combining
+
+The data from the twelve months were combined into a single table that yielded 13 columns of data and 5,620,544 rows. 
+
+Data Exploration
+
+The data was queried to reveal null values, duplicates, rider types, rideable bike type, and any discrepancies in ride ID
+
+Data Cleaning
+
+The data was cleaned, creating a new table that removed duplicates, nulls, and created rows for day of the week, month, and ride length. Furthermore, rides that lasted less than a minute or longer than a day were excluded from the cleaned data. 
+
+Data Analysis
+
+In this step, important statistics and trends were gathered through the data via SQL queries. Counts for rider type (member casual), average ride lengths for rider type, and counts for rider type depending on month and day of the week were gathered to identify meaningful trends. 
