@@ -19,7 +19,7 @@ To reiterate, I am tasked with question 1 in this case study.
 
 Prepare
 
-To complete this task, I will be using the previous 12 months of Cyclistic bike-share data made available here. 
+To complete this task, I will be using the previous 12 months of Cyclistic bike-share data made available [here](https://divvy-tripdata.s3.amazonaws.com/index.html). 
 
 The data has been made available by Motivate International Inc. through this license.   
 
