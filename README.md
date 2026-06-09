@@ -49,7 +49,7 @@ The data was queried to reveal null values, duplicates, rider types, rideable bi
 
 Data Cleaning
 
-The data was cleaned, creating a new table that removed duplicates, nulls, and created rows for day of the week, month, and ride length. Furthermore, rides that lasted less than a minute or longer than a day were excluded from the cleaned data. 
+The data was cleaned, creating a new table that removed duplicates, nulls, and created rows for day of the week, month, and ride length. Furthermore, rides that lasted less than a minute or longer than a day were excluded from the cleaned data. In the data cleaning step, 1,915,868 rows were removed, leaving 3,704,676 rows for analysis. 
 
 Data Analysis
 
