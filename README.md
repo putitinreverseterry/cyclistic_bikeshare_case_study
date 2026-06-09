@@ -25,7 +25,7 @@ The data has been made available by Motivate International Inc. through this [li
 
 Process
 
-I compiled data from May 2025 to April 2026 and used SQL through Google’s BigQuery (since it was used throughout the Data Analysis course) to process and analyze the data through 4 steps: Data combining, data exploration, data cleaning, and data analysis. 
+I compiled data from April 2025 to March 2026 and used SQL through Google’s BigQuery (since it was used throughout the Data Analysis course) to process and analyze the data through 4 steps: Data combining, data exploration, data cleaning, and data analysis. 
 
 
 The director of marketing, my manager, believes that maximizing the number of annual members will lead to growth. Instead of appealing to new customers, she believes converting casual riders to annual members will be the most effective since they are already familiar with the company. To do this, the team needs to understand how annual members and casual riders differ, why casual members would buy a membership, and how digital media could be used in marketing tactics. So, that is where I, the data analyst, come in. I am tasked with the first part of that equation. 
