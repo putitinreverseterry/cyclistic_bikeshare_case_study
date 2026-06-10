@@ -55,6 +55,6 @@ Data Analysis
 
 In this step, important statistics and trends were gathered through the data via SQL queries. Counts for rider type (member casual), average ride lengths for rider type, and counts for rider type depending on month and day of the week were gathered to identify meaningful trends. 
 
-<img width="203" height="111" alt="image" src="https://github.com/user-attachments/assets/ad9d46ae-2e32-40af-a7f0-cba1344805b3" />
+<img width="684" height="385" alt="image" src="https://github.com/user-attachments/assets/10e892d1-f88d-4fb5-bbfb-9b488389d378" />
 
 
