@@ -55,6 +55,15 @@ Data Analysis
 
 In this step, important statistics and trends were gathered through the data via SQL queries. Counts for rider type (member casual), average ride lengths for rider type, and counts for rider type depending on month and day of the week were gathered to identify meaningful trends. 
 
+Share
+
 <img width="684" height="385" alt="image" src="https://github.com/user-attachments/assets/10e892d1-f88d-4fb5-bbfb-9b488389d378" />
 
+Significant takeaways: 
+1. Of the 3,704,676 rows available for analysis, 2,386,702 are members, while 1,317,974 are casual riders. Approximately 36% of Cyclistic Bikeshare riders are casual riders.
+2. The average ride for a casual rider is nearly 10 minutes longer than for members (22.41 for casual riders and 12.51 for members).
+3. The average ride length for members during the typical work week (Monday to Friday) is around 12 minutes. The average ride length for casual riders increases on the weekend and has the shortest ride length in the middle of the week.
+4. Member ride length does not have much difference depending on the time of year, while casual rider ride length tends to be significantly longer in the warmer months (May to August).
+5. Members unlock bikes at a higher rate during the week, whereas casual riders unlock bikes at a higher rate on the weekend.
+6. There is a dramatic increase in ride count for casual riders during the warmer months and a steep drop-off during the colder months. The count of members decreases in the colder months as well, but not as drastically. 
 
