@@ -54,3 +54,7 @@ The data was cleaned, creating a new table that removed duplicates, nulls, and c
 Data Analysis
 
 In this step, important statistics and trends were gathered through the data via SQL queries. Counts for rider type (member casual), average ride lengths for rider type, and counts for rider type depending on month and day of the week were gathered to identify meaningful trends. 
+
+<img width="203" height="111" alt="image" src="https://github.com/user-attachments/assets/ad9d46ae-2e32-40af-a7f0-cba1344805b3" />
+
+
