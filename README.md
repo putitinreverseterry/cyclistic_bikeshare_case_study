@@ -80,6 +80,7 @@ Suggestions
 
 
 
+
 Resources
-https://github.com/hodges0501/Google_Data_Analytics_Cyclistic_Bike_Share_Study/blob/main/README.md 
-https://github.com/minbean/Google-Data-Analytics-Capstone-Project-Cyclistic-Case-Study/blob/main/README.md 
+[Aaron Hodges' case study](https://github.com/hodges0501/Google_Data_Analytics_Cyclistic_Bike_Share_Study/blob/main/README.md) 
+[Hui Min's case study](https://github.com/minbean/Google-Data-Analytics-Capstone-Project-Cyclistic-Case-Study/blob/main/README.md)
