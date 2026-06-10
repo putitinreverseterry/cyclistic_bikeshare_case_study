@@ -67,3 +67,19 @@ Significant takeaways:
 5. Members unlock bikes at a higher rate during the week, whereas casual riders unlock bikes at a higher rate on the weekend.
 6. There is a dramatic increase in ride count for casual riders during the warmer months and a steep drop-off during the colder months. The count of members decreases in the colder months as well, but not as drastically. 
 
+Act
+
+It is presumed that a majority of members are residents of Chicago and use Cylistic consistently. Since many Cyclistic members unlock bikes at a higher rate during the week and for a consistent ride length, we can infer that these members use Cyclistic as a commute method. Our members are aware of the reliability that Cyclistic offers. Casual riders are intrigued by the flexibility and convenience. Most of the rides by casual riders occur during the weekends and warmer months. Casual riders are more likely to unlock bikes for recreational purposes such as casual exercise or tourism. 
+
+Suggestions
+1. Offer a designated weekend membership at a lower price that allows users to unlock bikes from Friday to Sunday or Saturday to Sunday. This would allow tourists or weekend users a reliable source of transportation without the hassle of having to pay for multiple unlocks during a weekend.
+2. Offer a designated summer membership that runs from Memorial Day to Labor Day (or a similar period).
+3. When casual riders make an account in the app and unlock a bike a specific number of times, offer a complimentary weekend membership. This would allow casual riders to create a sense of familiarity and trust with the brand. In return, they would be offered a reward that would double as a trial period for a membership.
+4. Offer a membership that allows for a free number of bike rides before the payment is processed. Riders would need to sign up with a card on file and are allowed to cancel at any time.
+5. Prioritize marketing within the app. Alert casual riders of the savings of purchasing a membership based on how often they ride. This highlights the opportunity cost of not purchasing a membership.
+
+
+
+Resources
+https://github.com/hodges0501/Google_Data_Analytics_Cyclistic_Bike_Share_Study/blob/main/README.md 
+https://github.com/minbean/Google-Data-Analytics-Capstone-Project-Cyclistic-Case-Study/blob/main/README.md 
